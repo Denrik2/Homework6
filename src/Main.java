@@ -12,7 +12,7 @@ public class Main {
         }
         //Задача 3
         System.out.println("Задача №3");
-        for (int t = 0; t < 17; t = t + 2) {
+        for (int t = 0; t <= 17; t = t + 2) {
             System.out.println(t);
         }
         //Задача 4
@@ -48,7 +48,7 @@ public class Main {
         int salary1 = 29000;
         int savings1 = 0;
         for (int t = 1; t < 13; t++) {
-            savings1 = savings1 + savings1 / 100;
+            savings1 = savings1 + salary1 / 100;
             savings1 = savings1 + salary1;
             System.out.println("Месяц " + t + ", сумма накоплений равна " + savings1 + " рублей");
         }
